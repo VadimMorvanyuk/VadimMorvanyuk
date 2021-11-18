@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls width="600" height="auto" poster="/poster.png">
+        <source src="/video.mp4" type="video/mp4">
+        <source src="/video.webm" type="video/webm">
+        <source src="/video.ogv" type="video/ogg">
+    </video>
+
+    <video controls autoplay loop muted width="600" height="auto">
+        <source src="/video.mp4" type="video/mp4">
+        <source src="/video.webm" type="video/webm">
+        <source src="/video.ogv" type="video/ogg">
+    </video>
+    <audio controls>
+        <source src="/music.mp3" type="audio/mp3"/>
+        <source src="/music.ogg" type="audio/ogg"/>
+    </audio>
+    <form>
+        <p><input type="text" name="name" required placeholder="Имя"></p>
+        <p><input type="tel" name="tel" required placeholder="(098) 000 00 00"/></p>
+        <p><input type="checkbox">1</p>
+        <p><input type="checkbox">2</p>
+        <p><input type="checkbox" checked>3</p>
+        <p><input type="checkbox">4</p>
+        <p><input type="checkbox">5</p>
+        <p><input type="checkbox">6</p>
+        <p><input type="checkbox">7</p>
+        <p><input type="checkbox">8</p>
+        <p>
+            <textarea name="message" maxlength="200"></textarea>
+        </p>
+        <button>Отправить</button>
+        <details>
+            <summary>Текст</summary>
+            <p>Любой текст</p>
+          </details>
+    </form>
+</body>
+</html>
