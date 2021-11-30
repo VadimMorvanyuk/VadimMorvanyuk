@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-image: url(../img/background1.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.block1 {
+    display: inline-block;
+    margin-right: 50px;
+}
+.block2 {
+    display: inline-block;     
+}
+.block2 h1 {
+    font-size: 150px;
+    font-family: sans-serif;
+    color:royalblue;
+}
+.block2 p {
+    font-size: 25px;
+    color: slateblue;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.block2 a {
+    background-color: slateblue;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.5s;
+    color: white;
+    font-family: sans-serif;
+}
+.block2 a:hover {
+    background-color: rgb(235, 207, 51);
+}
