@@ -1,0 +1,56 @@
+body {
+    background: url(../img/wp2670843.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.block1 {
+    width: 50%;
+    color: #4b00ff;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+}
+.block1 h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.block1 p {
+    text-transform: lowercase;
+    text-indent: 20px;
+}
+.block2 {
+    width: 50%;
+    margin-right: 30px;
+    margin-left: 25%;
+
+    
+}
+input, .btn, textarea {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(203, 214, 138);
+    border: 1px solid;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    
+}
+.btn {
+    cursor: pointer;
+    transition: 0.5s;
+    width: 50%;
+}
+.btn:hover {
+    background: coral;
+}
+input:hover {
+    background: coral;
+    padding: 15px 15px;
+}
+textarea:hover {
+    background: coral;
+    padding: 15px 15px;
+
+}
