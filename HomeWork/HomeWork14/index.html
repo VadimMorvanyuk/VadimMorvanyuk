@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .bg {
+            background-color: rgba(0, 0, 0, 0.8);
+            height: 1170px;
+            position: relative;
+        }
+        .container {
+            width: 275px;
+        }
+        .title  {
+            text-align: center;
+            font-family: sans-serif;
+            color: #ff0b43eb;
+            margin-top: 31px;
+            margin-bottom: 30px;
+        }
+        .form span {
+            float: right;
+            margin-right: 15px;
+            margin-top: 2px;
+            cursor: pointer;
+            color: #ff0b43eb;
+        }
+        .form {
+            width: 350px;
+            position: absolute;
+            background-color: silver;
+            top: 30%;
+            left: 50%;
+            margin-left: -145px;
+            border-radius: 10px;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            margin-left: 35px;
+        }
+        input, textarea{
+            padding: 10px 20px;
+            width: 100%;
+            margin-bottom: 23px;
+            border: none;
+            border-radius: 10px;
+            transition: 0.8s;
+            outline: none;
+        }
+        .btn {
+            width: 117%;
+            color: white;
+            background-color: tomato;
+            cursor: pointer;
+        }
+        input:hover {
+            box-shadow: 1px 10px 15px red;
+        }
+        textarea:hover{
+            box-shadow: 1px 10px 15px red;
+        }
+        .btn:hover {
+            background-color: #585803;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="bg">
+            <div class="form">
+                <span>X</span>
+                
+                    <div class="title"><h2>ВАШ ВОПРОС</h2></div>
+                <div class="container">
+                    <div class="inputs">
+                        <input type="text" name="name" placeholder="ИМЯ">
+                        <input type="text" name="mail" placeholder="EMAIL">
+                        <textarea placeholder="КОММЕНТАРИЙ"></textarea>
+                        <input type="button" class="btn" value="ЗАКАЗАТЬ">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
