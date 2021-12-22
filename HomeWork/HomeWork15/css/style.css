@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    height: 100%;
+    position: relative;
+}
+.for-page{
+    min-height: 100%;
+    position: relative;
+}
+.page{
+    padding-bottom: 158px;
+}
 a{
     text-decoration:none;
     
@@ -123,11 +134,15 @@ ul.menu li:nth-child(4):hover ul.sub-menu{
     width: 700px;
     letter-spacing: 3px;
     z-index: 2;
-    position: absolute;
+    
     top: 134px;
     right: 148px;
     padding: 35px;
     border-radius: 48px;
+}
+.banner_text {
+    margin-left: 50%;
+    padding-top: 160px;
 }
 .block1 {
     margin-bottom: 40px;
@@ -173,16 +188,25 @@ ul.menu li:nth-child(4):hover ul.sub-menu{
     width: 500px;
 }
 .block3 {
-    display: flex;
-    justify-content: space-between;
+    
     margin-bottom: 40px;
+}
+.block3-left{
+    float: left;
+}
+.block3-right{
+    float: right;
 }
 .footer {
     margin-top: 30px;
     background: #525252;
     text-align: center;
-    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
 }
 .footer p{
-    line-height: 50px;
+   line-height: 80px;
 }
