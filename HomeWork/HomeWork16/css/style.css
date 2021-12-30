@@ -41,6 +41,7 @@ a{
 }
 .box-img{
     position: relative;
+    overflow: hidden;
 }
 .box-img:hover:before {
     display: block;
@@ -62,6 +63,10 @@ a{
 img {
     width: 100%;
     max-height: 230px;
+    transition: all 1s ease-out;
+}
+img:hover{
+    transform: scale(1.1);
 }
 .img-text{
     position: absolute;
